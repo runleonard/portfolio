@@ -579,7 +579,8 @@ document.addEventListener('DOMContentLoaded', () => {
      ========================================================================== */
   const mobileToggle = document.querySelector('.mobile-toggle');
   if (mobileToggle && header) {
-    mobileToggle.addEventListener('click', () => {
+    mobileToggle.addEventListener('click', (e) => {
+      e.stopPropagation();
       header.classList.toggle('is-mobile-open');
     });
 
@@ -587,6 +588,19 @@ document.addEventListener('DOMContentLoaded', () => {
       link.addEventListener('click', () => {
         header.classList.remove('is-mobile-open');
       });
+    });
+
+    const mobileCta = header.querySelector('.nav-cta-mobile');
+    if (mobileCta) {
+      mobileCta.addEventListener('click', () => {
+        header.classList.remove('is-mobile-open');
+      });
+    }
+
+    document.addEventListener('click', (e) => {
+      if (header.classList.contains('is-mobile-open') && !header.contains(e.target)) {
+        header.classList.remove('is-mobile-open');
+      }
     });
   }
 
