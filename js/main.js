@@ -313,47 +313,6 @@ document.addEventListener('DOMContentLoaded', () => {
         { label: 'Disziplinen', value: 'Plastische Raumstudien & Freihandzeichnung' }
       ],
       pdfUrl: null
-    },
-    'projekt-realschule': {
-      semester: 'KREATIVE ARBEITEN // REALSCHULE',
-      title: 'Kreative Arbeiten',
-      location: 'Kastulus Realschule Moosburg',
-      typology: 'Freies Zeichnen & Gestalten',
-      summary: 'Ausgewählte kreative und bildnerische Arbeiten aus der Realschulzeit an der Kastulus Realschule Moosburg.',
-      gallery: [
-        {
-          label: 'Bild 1',
-          src: 'assets/images/kreativ/realschule-01.jpg',
-          caption: ''
-        },
-        {
-          label: 'Bild 2',
-          src: 'assets/images/kreativ/realschule-02.jpg',
-          caption: ''
-        },
-        {
-          label: 'Bild 3',
-          src: 'assets/images/kreativ/realschule-03.jpg',
-          caption: ''
-        },
-        {
-          label: 'Bild 4',
-          src: 'assets/images/kreativ/realschule-04.jpg',
-          caption: ''
-        },
-        {
-          label: 'Bild 5',
-          src: 'assets/images/kreativ/realschule-05.jpg',
-          caption: ''
-        }
-      ],
-      specs: [
-        { label: 'Bereich', value: 'Bildnerisches Gestalten & Zeichnen' },
-        { label: 'Schule', value: 'Kastulus Realschule Moosburg' },
-        { label: 'Umfang', value: '5 Arbeiten' },
-        { label: 'Technik', value: 'Zeichnung, Malerei & Grafik' }
-      ],
-      pdfUrl: null
     }
   };
 
