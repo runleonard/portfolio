@@ -4,18 +4,18 @@
    ========================================================================== */
 
 :root {
-  /* Farbpalette: Natürlich-architektonisch (Dezenter warm-grau-beiger Papierstich) */
-  --bg-primary: #F8F7F4;
+  /* Farbpalette: Natürlich-architektonisch (Warmes, minimales Creme / Elfenbein-Papier) */
+  --bg-primary: #FAF7F2;
   --bg-surface: #FFFFFF;
-  --bg-subtle: #F0EFEA;
-  --bg-accent-tint: #EFF4F0;
+  --bg-subtle: #F2EFE8;
+  --bg-accent-tint: #EFF4EE;
   
-  --text-primary: #141615;
-  --text-secondary: #5A625D;
-  --text-muted: #868F89;
+  --text-primary: #161816;
+  --text-secondary: #5C625B;
+  --text-muted: #8A9087;
   
-  --border-color: #E2E1DA;
-  --border-dark: #141615;
+  --border-color: #E8E4DC;
+  --border-dark: #161816;
   
   /* Aufgehellte Wald- & Pinien-Grüntöne (subtile, elegante Akzente) */
   --accent-green: #3A5F48;
