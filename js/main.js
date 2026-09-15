@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
     'projekt-01': {
       semester: '01 // SEMESTER 1',
       title: 'Orientierendes Projekt',
-      location: 'HSWT Freising // WS 2023/24 (Projektgruppe 9.1)',
+      location: 'HSWT Freising // WS 2024/25 (Projektgruppe 9.1)',
       typology: 'Orientierendes Entwurfsprojekt',
       summary: 'Das Ziel des Orientierenden Projekts war es, den Studierenden eine fundierte Übersicht über die Aufgabenfelder der Landschaftsplanung, der Stadtplanung, der Freiraumplanung und des Landschaftsbaus zu vermitteln. Es versetzte uns in die Situation zu analysieren, zu planen und eigenständig zu entwerfen, gegliedert in vier methodische Teilaufgaben: von der landschaftlichen Bestandsaufnahme über das Entwurfskonzept für das Wohnheim „Beehive“ bis hin zum physischen Modellbau.',
       gallery: [
@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
     'projekt-02': {
       semester: '02 // SEMESTER 2',
       title: 'Objekt und Quartier',
-      location: 'Region Freising // SoSe 2024 (Modul PuE 1)',
+      location: 'Region Freising // SoSe 2025 (Modul PuE 1)',
       typology: 'Studienarbeit Stadtplanung & Freiraum',
       summary: 'Aufgabenstellung: Das Modul „Objekt und Quartier“ führt die Disziplinen Stadtplanung, Architektur und Freiraumgestaltung zusammen. Ziel war das Entwerfen von Räumen und Raumwirkungen über mehrere Maßstabsebenen hinweg – von der städtebaulichen Ordnung und hexagonalen Gebäudestruktur (Wabenwerk) bis hin zu Identität, Wegenetzen und Aneignung der Freiräume.',
       gallery: [
@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', () => {
     'projekt-sag1': {
       semester: 'MODUL SAG 1 // 2. SEMESTER',
       title: 'Städtebau, Architektur & Gebäudelehre 1',
-      location: 'HSWT Freising // SoSe 2024 (Modul SAG 1)',
+      location: 'HSWT Freising // SoSe 2025 (Modul SAG 1)',
       typology: 'Gebäudelehre, Axonometrie & Entwurfslehre',
       summary: 'Begleitende Entwurfs- und Konstruktionsarbeiten im Modul SAG 1: Analytische Axonometrie und normgerechte Vermaßung eines architektonischen Baukörpers (Schnitt, Grundriss, Höhenkoten) sowie die freie Entwurfsaufgabe „Traumwohnung David Runge“ mit Zonierung von Wohn-, Arbeits- und Freibereichen.',
       gallery: [
@@ -136,7 +136,7 @@ document.addEventListener('DOMContentLoaded', () => {
     'projekt-03': {
       semester: '03 // SEMESTER 3',
       title: 'Wohnen und Arbeiten im Linzer Kreativquartier',
-      location: 'Projektgebiet Linz Kaplanhof // WS 2024/25',
+      location: 'Projektgebiet Linz Kaplanhof // WS 2025/26',
       typology: 'Städtebauliche Rahmenplanung & Stadtentwicklung',
       summary: 'Aufgabenstellung: Entwicklung eines urbanen, gemischten und vielfältigen Kreativquartiers im Linzer Kaplanhofviertel. Im Fokus stand die schrittweise Transformation des heterogenen Industriegebiets hin zu einer offenen, fließenden Stadtlandschaft mit robuster Freiraumqualität, grünen Wegekorridoren und lebendigen Nutzungsknoten (VABANC).',
       gallery: [
@@ -170,7 +170,7 @@ document.addEventListener('DOMContentLoaded', () => {
     'projekt-sag2': {
       semester: 'MODUL SAG 2 // 3. SEMESTER',
       title: 'Städtebau, Architektur & Gebäudelehre 2',
-      location: 'HSWT Freising // WS 2024/25 (Modul SAG 2)',
+      location: 'HSWT Freising // WS 2025/26 (Modul SAG 2)',
       typology: 'Architektonische Hand- & Konstruktionszeichnungen',
       summary: 'Entwurfs- und Zeichenarbeiten aus dem Modul SAG 2 (Städtebau, Architektur und Gebäudelehre 2). Die Scan-Serie dokumentiert die zeichnerische Auseinandersetzung mit Baukörperproportionen, Schnittgeometrien, Grundrisszonierungen und räumlichen Freiraumbezügen über alle Maßstabsebenen.',
       gallery: [
@@ -198,12 +198,17 @@ document.addEventListener('DOMContentLoaded', () => {
           label: 'Scan 05: Räumliche Ausarbeitung',
           src: 'assets/images/sag2-scan-p5.png',
           caption: 'SAG 2 Scan Blatt 5: Plastische Durcharbeitung, Fassadenabwicklung und Raumwirkung.'
+        },
+        {
+          label: 'Abbildung WÜ1: Volumenexperimente',
+          src: 'assets/images/sag2-volumenexperimente.png',
+          caption: 'SAG 2 Abbildung WÜ1: Dreidimensionale Volumenexperimente und architektonische Raumstudien.'
         }
       ],
       specs: [
         { label: 'Studiengang', value: 'B.Sc. Grüne Stadtplanung (HSWT)' },
         { label: 'Semester', value: '3. Semester // Modul SAG 2' },
-        { label: 'Umfang', value: 'Scanblätter (vollständig erfasst)' },
+        { label: 'Umfang', value: '5 Scanblätter & Volumenexperimente' },
         { label: 'Darstellung', value: 'Konstruktionszeichnung, Schnitt & Axonometrie' },
         { label: 'Technik', value: 'Handzeichnung, Bleistift & Tusche' }
       ],
@@ -213,7 +218,7 @@ document.addEventListener('DOMContentLoaded', () => {
     'projekt-04': {
       semester: '04 // SEMESTER 4',
       title: 'Klimakulturstadt Bad Wimpfen',
-      location: 'Bad Wimpfen // SoSe 2025 (Modul PuE 3)',
+      location: 'Bad Wimpfen // SoSe 2026 (Modul PuE 3)',
       typology: 'Landscape Urbanism & Klimaanpassung',
       summary: 'Aufgabenstellung: Ganzheitliche städtebauliche und landschaftsräumliche Gesamtstrategie für die historische Kur- und Denkmalstadt Bad Wimpfen unter den Vorzeichen des Landscape Urbanism. Das Projekt verknüpft historisches Erbe und Denkmalschutz mit aktiver Klimaanpassung – von regionalen Grünringen über Frischluftschneisen bis hin zu konkreten Schutzmaßnahmen gegen Starkregen und Hitze. Ergänzt durch eigene thematische Analysekarten.',
       gallery: [
@@ -257,7 +262,7 @@ document.addEventListener('DOMContentLoaded', () => {
     'projekt-gestaltung': {
       semester: 'MODUL GESTALTUNG // 1. SEMESTER',
       title: 'Grundlagen der Gestaltung',
-      location: 'HSWT Freising // WS 2023/24',
+      location: 'HSWT Freising // WS 2024/25',
       typology: 'Plastische Form- & Raumstudien',
       summary: 'Plastische Arbeiten und Formstudien aus dem Modul Grundlagen der Gestaltung im ersten Studiensemester an der HSWT Freising.',
       gallery: [
