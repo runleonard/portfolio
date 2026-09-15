@@ -105,34 +105,53 @@ document.addEventListener('DOMContentLoaded', () => {
       semester: 'MODUL SAG 1 // 2. SEMESTER',
       title: 'Städtebau, Architektur & Gebäudelehre 1',
       location: 'HSWT Freising // SoSe 2025 (Modul SAG 1)',
-      typology: 'Gebäudelehre, Axonometrie & Entwurfslehre',
-      summary: 'Begleitende Entwurfs- und Konstruktionsarbeiten im Modul SAG 1: Analytische Axonometrie und normgerechte Vermaßung eines architektonischen Baukörpers (Schnitt, Grundriss, Höhenkoten) sowie die freie Entwurfsaufgabe „Traumwohnung David Runge“ mit Zonierung von Wohn-, Arbeits- und Freibereichen.',
+      typology: 'Gebäudelehre & Gebäudeanalyse',
+      summary: 'Im Begleitmodul SAG 1 stand die bauliche und architektonische Analyse des berühmten Doppelhauses von Le Corbusier in der Weißenhofsiedlung (Stuttgart 1927) im Mittelpunkt: Von der städtebaulichen Einordnung auf dem Analyseplakat über Handzeichnungen von Fassade und Schnitt bis hin zur analytischen Axonometrie und normgerechten Vermaßung. Ergänzt wird die Reihe durch die freie Entwurfsaufgabe „Traumwohnung David Runge“.',
       gallery: [
+        {
+          label: 'Plakat Le Corbusier',
+          src: 'assets/images/sag1-plakat-le-corbusier.png',
+          caption: 'Analyse Doppelhaus Weißenhofsiedlung (Le Corbusier): Plakat mit Schwarzplan, städtebaulichem Lageplan, Grundrissen und Erläuterung der Fünf Punkte einer neuen Architektur.',
+          pdfUrl: 'assets/pdf/SAG1-Plakat-Le-Corbusier.pdf',
+          pdfFileSize: 'PLAKAT LE CORBUSIER [PDF 884 KB]'
+        },
+        {
+          label: 'Fassade & Schnitt',
+          src: 'assets/images/sag1-fassade.png',
+          caption: 'Handzeichnung Schnitt und Fassade (M 1:50): Analyse der linken Haushälfte mit Gliederung der durchlaufenden Fensterbänder und Skelettbau-Tragstruktur.',
+          pdfUrl: 'assets/pdf/SAG1-Runge-David-Fassade.pdf',
+          pdfFileSize: 'FASSADE & SCHNITT [PDF 2.4 MB]'
+        },
         {
           label: 'Axonometrie',
           src: 'assets/images/sag1-axometrie-p1.png',
-          caption: 'SAG 1 Axonometrie: Räumliche Dreitafelprojektion und dreidimensionale Schrägbilddarstellung des Baukörpers.'
+          caption: 'Analytische Axonometrie mit Möblierung (M 1:100): Dreidimensionale Schrägbilddarstellung des Doppelhauses zur Untersuchung von Raumbezügen.',
+          pdfUrl: 'assets/pdf/SAG1-Axonometrie-und-Vermassung.pdf',
+          pdfFileSize: 'AXONOMETRIE & VERMASSUNG [PDF 4.9 MB]'
         },
         {
-          label: 'Vermaßung & Schnitt',
+          label: 'Vermaßung',
           src: 'assets/images/sag1-axometrie-p2.png',
-          caption: 'SAG 1 Vermaßung: Vollständige Bemaßung, Grundrisse, Schnittführungen und Maßketten.'
+          caption: 'Normgerechte Vermaßung (M 1:100): Grundriss mit Bemaßung, Maßketten und Erschließung.',
+          pdfUrl: 'assets/pdf/SAG1-Axonometrie-und-Vermassung.pdf',
+          pdfFileSize: 'AXONOMETRIE & VERMASSUNG [PDF 4.9 MB]'
         },
         {
           label: 'Traumwohnung',
           src: 'assets/images/sag1-traumwohnung-p1.png',
-          caption: 'Entwurf SAG 1 „Traumwohnung David Runge“: Raumstruktur, Belichtungsachsen, detaillierter Möblierungsplan und großzügiger Freisitz.'
+          caption: 'Freie Entwurfsaufgabe „Traumwohnung David Runge“: Raumkonzept, Möblierung und Zonierung von Wohn-, Arbeits- und Freibereichen.',
+          pdfUrl: 'assets/pdf/SAG1-Traumwohnung-David-Runge.pdf',
+          pdfFileSize: 'TRAUMWOHNUNG [PDF 290 KB]'
         }
       ],
       specs: [
         { label: 'Studiengang', value: 'B.Sc. Grüne Stadtplanung (HSWT)' },
         { label: 'Semester', value: '2. Semester // Modul SAG 1' },
-        { label: 'Aufgaben', value: 'Axonometrie & Vermaßung + Traumwohnung' },
-        { label: 'Umfang', value: '3 Planseiten (vollständig erfasst)' },
-        { label: 'Technik', value: 'CAD-Konstruktion & Entwurfszeichnung' }
+        { label: 'Thema', value: 'Analyse Doppelhaus Le Corbusier & Traumwohnung' },
+        { label: 'Technik', value: 'Handzeichnung & CAD-Konstruktion' }
       ],
-      pdfUrl: 'assets/pdf/SAG1-Axonometrie-und-Vermassung.pdf',
-      pdfFileSize: 'AXONOMETRIE [PDF]'
+      pdfUrl: 'assets/pdf/SAG1-Plakat-Le-Corbusier.pdf',
+      pdfFileSize: 'PLAKAT LE CORBUSIER [PDF 884 KB]'
     },
     'projekt-03': {
       semester: '03 // SEMESTER 3',
@@ -441,6 +460,27 @@ document.addEventListener('DOMContentLoaded', () => {
       modalGalleryNav.querySelectorAll('.modal-tab-btn').forEach((btn, i) => {
         btn.classList.toggle('active', i === idx);
       });
+    }
+
+    // Download-Button dynamisch passend zum aktiven Tab aktualisieren
+    const modalDownloadBox = modal ? modal.querySelector('.modal-download-box') : null;
+    if (modalDownloadBox && modalPdfBtn) {
+      const activePdfUrl = item.pdfUrl || currentProject.pdfUrl;
+      const activePdfLabel = item.pdfFileSize || currentProject.pdfFileSize;
+      if (activePdfUrl) {
+        modalDownloadBox.style.display = 'block';
+        modalPdfBtn.href = activePdfUrl;
+        modalPdfBtn.innerHTML = `
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          ${activePdfLabel || 'PDF'} ÖFFNEN / HERUNTERLADEN
+        `;
+      } else {
+        modalDownloadBox.style.display = 'none';
+      }
     }
   }
 
