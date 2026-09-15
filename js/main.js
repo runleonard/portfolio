@@ -249,6 +249,78 @@ document.addEventListener('DOMContentLoaded', () => {
       ],
       pdfUrl: 'assets/pdf/Semester-04-Bad-Wimpfen.pdf',
       pdfFileSize: 'PLAKAT BAD WIMPFEN [PDF 21 MB]'
+    },
+    'projekt-gestaltung': {
+      semester: 'MODUL GESTALTUNG // 1. SEMESTER',
+      title: 'Grundlagen der Gestaltung',
+      location: 'HSWT Freising // WS 2023/24',
+      typology: 'Plastische Form- & Raumstudien',
+      summary: 'Plastische Arbeiten und Formstudien aus dem Modul Grundlagen der Gestaltung im ersten Studiensemester an der HSWT Freising.',
+      gallery: [
+        {
+          label: 'Bild 1',
+          src: 'assets/images/kreativ/gestaltung-01.jpg',
+          caption: ''
+        },
+        {
+          label: 'Bild 2',
+          src: 'assets/images/kreativ/gestaltung-02.jpg',
+          caption: ''
+        },
+        {
+          label: 'Bild 3',
+          src: 'assets/images/kreativ/gestaltung-03.jpg',
+          caption: ''
+        }
+      ],
+      specs: [
+        { label: 'Modul', value: 'Grundlagen der Gestaltung' },
+        { label: 'Hochschule', value: 'HSWT Freising' },
+        { label: 'Semester', value: '1. Semester' },
+        { label: 'Umfang', value: '3 Arbeiten' }
+      ],
+      pdfUrl: null
+    },
+    'projekt-realschule': {
+      semester: 'KREATIVE ARBEITEN // REALSCHULE',
+      title: 'Kreative Arbeiten',
+      location: 'Kastulus Realschule Moosburg',
+      typology: 'Freies Zeichnen & Gestalten',
+      summary: 'Ausgewählte kreative und bildnerische Arbeiten aus der Realschulzeit an der Kastulus Realschule Moosburg.',
+      gallery: [
+        {
+          label: 'Bild 1',
+          src: 'assets/images/kreativ/realschule-01.jpg',
+          caption: ''
+        },
+        {
+          label: 'Bild 2',
+          src: 'assets/images/kreativ/realschule-02.jpg',
+          caption: ''
+        },
+        {
+          label: 'Bild 3',
+          src: 'assets/images/kreativ/realschule-03.jpg',
+          caption: ''
+        },
+        {
+          label: 'Bild 4',
+          src: 'assets/images/kreativ/realschule-04.jpg',
+          caption: ''
+        },
+        {
+          label: 'Bild 5',
+          src: 'assets/images/kreativ/realschule-05.jpg',
+          caption: ''
+        }
+      ],
+      specs: [
+        { label: 'Bereich', value: 'Bildnerisches Gestalten & Zeichnen' },
+        { label: 'Schule', value: 'Kastulus Realschule Moosburg' },
+        { label: 'Umfang', value: '5 Arbeiten' },
+        { label: 'Technik', value: 'Zeichnung, Malerei & Grafik' }
+      ],
+      pdfUrl: null
     }
   };
 
@@ -313,16 +385,24 @@ document.addEventListener('DOMContentLoaded', () => {
       </div>
     `).join('');
 
-    // PDF Download Link
-    modalPdfBtn.href = data.pdfUrl;
-    modalPdfBtn.innerHTML = `
-      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-        <polyline points="7 10 12 15 17 10"></polyline>
-        <line x1="12" y1="15" x2="12" y2="3"></line>
-      </svg>
-      ${data.pdfFileSize} ÖFFNEN / HERUNTERLADEN
-    `;
+    // PDF Download Link (falls vorhanden)
+    const modalDownloadBox = modal.querySelector('.modal-download-box');
+    if (modalDownloadBox) {
+      if (data.pdfUrl) {
+        modalDownloadBox.style.display = 'block';
+        modalPdfBtn.href = data.pdfUrl;
+        modalPdfBtn.innerHTML = `
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          ${data.pdfFileSize} ÖFFNEN / HERUNTERLADEN
+        `;
+      } else {
+        modalDownloadBox.style.display = 'none';
+      }
+    }
 
     modal.classList.add('is-open');
     document.body.style.overflow = 'hidden';
@@ -334,7 +414,14 @@ document.addEventListener('DOMContentLoaded', () => {
     currentImageSrc = item.src;
     modalImage.src = item.src;
     modalImage.alt = item.label;
-    modalCaption.textContent = item.caption;
+
+    if (item.caption && item.caption.trim() !== '') {
+      modalCaption.textContent = item.caption;
+      modalCaption.style.display = 'block';
+    } else {
+      modalCaption.textContent = '';
+      modalCaption.style.display = 'none';
+    }
 
     if (modalGalleryNav) {
       modalGalleryNav.querySelectorAll('.modal-tab-btn').forEach((btn, i) => {
