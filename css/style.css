@@ -21,6 +21,10 @@
   --accent-green: #2B4234;
   --accent-green-hover: #1E2F25;
   --accent-green-light: #41624F;
+  --accent-green-dark: #233D2D;
+  --accent-green-muted: #284D37;
+  --accent-badge-bg: #254431;
+  --accent-badge-text: #F1F6F2;
   
   /* Typografie */
   --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -114,14 +118,15 @@ button {
 .mono-tag {
   display: inline-block;
   font-family: var(--font-mono);
-  font-size: 0.7rem;
-  letter-spacing: 0.06em;
+  font-size: 0.72rem;
+  letter-spacing: 0.07em;
   text-transform: uppercase;
-  color: var(--accent-green);
-  background-color: var(--bg-accent-tint);
-  padding: 0.2rem 0.55rem;
-  border: 1px solid rgba(43, 66, 52, 0.15);
+  color: var(--accent-badge-text);
+  background-color: var(--accent-badge-bg);
+  padding: 0.28rem 0.75rem;
+  border-radius: 2px;
   font-weight: 500;
+  box-shadow: 0 1px 3px rgba(37, 68, 49, 0.18);
 }
 
 h1, h2, h3, h4 {
@@ -305,9 +310,10 @@ h1, h2, h3, h4 {
 }
 
 .hero-meta-dot {
-  width: 6px;
-  height: 6px;
-  background-color: var(--accent-green);
+  width: 7px;
+  height: 7px;
+  background-color: var(--accent-green-muted);
+  border-radius: 50%;
   display: inline-block;
 }
 
@@ -495,7 +501,7 @@ h1, h2, h3, h4 {
   justify-content: space-between;
   gap: 1.5rem;
   padding-bottom: 0.9rem;
-  border-bottom: 2px solid var(--text-primary);
+  border-bottom: 2px solid var(--accent-green-muted);
   margin-top: clamp(4rem, 7vw, 6rem);
   margin-bottom: 1.5rem;
 }
@@ -515,7 +521,7 @@ h1, h2, h3, h4 {
   font-family: var(--font-mono);
   font-size: clamp(1.6rem, 2.8vw, 2.3rem);
   font-weight: 700;
-  color: var(--accent-green);
+  color: var(--accent-green-muted);
   line-height: 1;
   letter-spacing: -0.03em;
 }
@@ -1526,11 +1532,50 @@ h1, h2, h3, h4 {
   transform: scale(1.02);
 }
 
+/* Quad Preview Grid (4 Works: Gestaltung 1-3 + Künstlerische Strategien) */
+.project-visual-quad {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px;
+  background-color: var(--border-color);
+  border: 1px solid var(--border-color);
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  transition: border-color var(--transition-medium);
+}
+
+.project-visual-quad:hover {
+  border-color: var(--accent-green);
+}
+
+.project-visual-quad .dual-pane {
+  position: relative;
+  background-color: #F8F9F7;
+  overflow: hidden;
+  aspect-ratio: 1.35 / 1;
+}
+
+.project-visual-quad .dual-pane img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: #FFFFFF;
+  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.project-visual-quad:hover .dual-pane img {
+  transform: scale(1.02);
+}
+
 @media (max-width: 900px) {
   .project-visual-trio {
     grid-template-columns: 1fr;
   }
   .project-visual-scans {
+    grid-template-columns: 1fr 1fr;
+  }
+  .project-visual-quad {
     grid-template-columns: 1fr 1fr;
   }
 }

@@ -17,17 +17,17 @@ document.addEventListener('DOMContentLoaded', () => {
       title: 'Orientierendes Projekt',
       location: 'HSWT Freising // WS 2024/25 (Projektgruppe 9.1)',
       typology: 'Orientierendes Entwurfsprojekt',
-      summary: 'Das Ziel des Orientierenden Projekts war es, den Studierenden eine fundierte Übersicht über die Aufgabenfelder der Landschaftsplanung, der Stadtplanung, der Freiraumplanung und des Landschaftsbaus zu vermitteln. Es versetzte uns in die Situation zu analysieren, zu planen und eigenständig zu entwerfen, gegliedert in vier methodische Teilaufgaben: von der landschaftlichen Bestandsaufnahme über das Entwurfskonzept für das Wohnheim „Beehive“ bis hin zum physischen Modellbau.',
+      summary: 'Das Ziel des Orientierenden Projekts war es, den Studierenden eine fundierte Übersicht über die vier Aufgabenfelder der Landschaftsplanung, Stadtplanung, Freiraumplanung und des Landschaftsbaus zu vermitteln. Die im Portfolio gezeigten Arbeiten dokumentieren die beiden Teilbereiche Stadtplanung und Freiraumplanung. Das Wohnheim-Konzept „Beehive“ entstand dabei als unsere eigene räumlich-gestalterische Entwurfsidee zur vorgegebenen Aufgabenstellung.',
       gallery: [
         {
           label: 'Wohnheim Beehive (Freiraum & Modell)',
           src: 'assets/images/orientierendes-projekt-lageplan.png',
-          caption: 'Wohnheim Beehive (Gruppe 9.1): Lageplan des Innenhofs, Freiraumzonen, Analyseskizzen (Wege, Sichtbeziehungen, Baumbestände), Handperspektive und Modellfotos.'
+          caption: 'Wohnheim „Beehive“ (Teilaufgaben Stadt- & Freiraumplanung): Eigene Entwurfsidee mit Innenhof-Lageplan, Freiraumzonen, Wege- und Baumanalysen, Handperspektive und physischem Modellbau.'
         },
         {
           label: 'Gezeichneter Lageplan (Plangrafik)',
           src: 'assets/images/semester-01-lageplan-gezeichnet.png',
-          caption: 'Handgezeichneter Lageplan aus „Orientierendes Projekt Gruppe 9.1 Lageplan“: Kolorierte Entwurfszeichnung, Raumgeometrie und Gehölzstruktur.'
+          caption: 'Handgezeichneter Lageplan (Teilaufgabe Freiraumplanung): Kolorierte Entwurfszeichnung des Wohnheimumfelds mit Raumgeometrie und Gehölzstruktur.'
         }
       ],
       specs: [
@@ -35,7 +35,8 @@ document.addEventListener('DOMContentLoaded', () => {
         { label: 'Semester', value: '1. Semester // Orientierendes Projekt' },
         { label: 'Bewertung', value: 'Note 2,3 (Gruppe)' },
         { label: 'Projektgruppe', value: 'Projektgruppe 9.1' },
-        { label: 'Aufgabenfelder', value: 'Landschaftsplanung, Stadtplanung, Freiraum, Landschaftsbau' },
+        { label: 'Gezeigte Teile', value: 'Stadtplanung & Freiraumplanung' },
+        { label: 'Konzept', value: 'Wohnheim „Beehive“ (eigene Entwurfsidee)' },
         { label: 'Methoden', value: 'Analyseskizzen, Lageplan, Physischer Modellbau' }
       ],
       pdfUrl: 'assets/pdf/Orientierendes-Projekt-Dossier.pdf',
@@ -208,7 +209,6 @@ document.addEventListener('DOMContentLoaded', () => {
       specs: [
         { label: 'Studiengang', value: 'B.Sc. Grüne Stadtplanung (HSWT)' },
         { label: 'Semester', value: '3. Semester // Modul SAG 2' },
-        { label: 'Umfang', value: '5 Scanblätter & Volumenexperimente' },
         { label: 'Darstellung', value: 'Konstruktionszeichnung, Schnitt & Axonometrie' },
         { label: 'Technik', value: 'Handzeichnung, Bleistift & Tusche' }
       ],
@@ -259,34 +259,39 @@ document.addEventListener('DOMContentLoaded', () => {
       pdfUrl: 'assets/pdf/Semester-04-Bad-Wimpfen.pdf',
       pdfFileSize: 'PLAKAT BAD WIMPFEN [PDF 21 MB]'
     },
-    'projekt-gestaltung': {
-      semester: 'MODUL GESTALTUNG // 1. SEMESTER',
-      title: 'Grundlagen der Gestaltung',
-      location: 'HSWT Freising // WS 2024/25',
-      typology: 'Plastische Form- & Raumstudien',
-      summary: 'Plastische Arbeiten und Formstudien aus dem Modul Grundlagen der Gestaltung im ersten Studiensemester an der HSWT Freising.',
+    'projekt-kuenstlerisch': {
+      semester: 'KÜNSTLERISCHE ARBEITEN // STUDIUM',
+      title: 'Künstlerische Arbeiten & Gestaltung',
+      location: 'HSWT Freising // 1., 2. & 4. Semester',
+      typology: 'Plastische Formstudien & Freies Zeichnen',
+      summary: 'Künstlerische Arbeiten aus den Modulen Grundlagen der Gestaltung (1. & 2. Semester) und Künstlerische Strategien (4. Semester) an der HSWT Freising.',
       gallery: [
         {
-          label: 'Bild 1',
+          label: 'Bild 1 (Grundlagen der Gestaltung)',
           src: 'assets/images/kreativ/gestaltung-01.jpg',
           caption: ''
         },
         {
-          label: 'Bild 2',
+          label: 'Bild 2 (Grundlagen der Gestaltung)',
           src: 'assets/images/kreativ/gestaltung-02.jpg',
           caption: ''
         },
         {
-          label: 'Bild 3',
+          label: 'Bild 3 (Grundlagen der Gestaltung)',
           src: 'assets/images/kreativ/gestaltung-03.jpg',
+          caption: ''
+        },
+        {
+          label: 'Bild 4 (Künstlerische Strategien // 4. Sem.)',
+          src: 'assets/images/kreativ/kuenstlerische-strategien-01.jpg',
           caption: ''
         }
       ],
       specs: [
-        { label: 'Modul', value: 'Grundlagen der Gestaltung' },
+        { label: 'Module', value: 'Grundlagen der Gestaltung & Künstlerische Strategien' },
         { label: 'Hochschule', value: 'HSWT Freising' },
-        { label: 'Semester', value: '1. Semester' },
-        { label: 'Umfang', value: '3 Arbeiten' }
+        { label: 'Semester', value: '1., 2. & 4. Semester' },
+        { label: 'Disziplinen', value: 'Plastische Raumstudien & Freihandzeichnung' }
       ],
       pdfUrl: null
     },
