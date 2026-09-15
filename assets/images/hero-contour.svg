@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" fill="none" stroke="#2B4234" stroke-linecap="round" stroke-linejoin="round">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" fill="none" stroke="#3A5F48" stroke-linecap="round" stroke-linejoin="round">
   <!-- Minimalistischer, architektonischer Höhenlinienplan (Topographie) -->
   <g opacity="0.08" stroke-width="0.85">
     <!-- Höhenschichtlinien (Topographie-Kurven, dezent auf der rechten Seite) -->
@@ -12,12 +12,12 @@
     <path d="M 700,0 C 720,410 780,590 860,710 C 940,830 1040,890 1140,900" />
 
     <!-- Höhenkoten entlang der Schichtlinien -->
-    <text x="1290" y="215" font-family="'JetBrains Mono', monospace" font-size="9" fill="#2B4234" stroke="none" letter-spacing="1">+435.0</text>
-    <text x="1230" y="285" font-family="'JetBrains Mono', monospace" font-size="9" fill="#2B4234" stroke="none" letter-spacing="1">+430.0</text>
-    <text x="1170" y="355" font-family="'JetBrains Mono', monospace" font-size="9" fill="#2B4234" stroke="none" letter-spacing="1">+425.0</text>
-    <text x="1110" y="425" font-family="'JetBrains Mono', monospace" font-size="9" fill="#2B4234" stroke="none" letter-spacing="1">+420.0</text>
-    <text x="1050" y="495" font-family="'JetBrains Mono', monospace" font-size="9" fill="#2B4234" stroke="none" letter-spacing="1">+415.0</text>
-    <text x="990" y="565" font-family="'JetBrains Mono', monospace" font-size="9" fill="#2B4234" stroke="none" letter-spacing="1">+410.0</text>
+    <text x="1290" y="215" font-family="'JetBrains Mono', monospace" font-size="9" fill="#3A5F48" stroke="none" letter-spacing="1">+435.0</text>
+    <text x="1230" y="285" font-family="'JetBrains Mono', monospace" font-size="9" fill="#3A5F48" stroke="none" letter-spacing="1">+430.0</text>
+    <text x="1170" y="355" font-family="'JetBrains Mono', monospace" font-size="9" fill="#3A5F48" stroke="none" letter-spacing="1">+425.0</text>
+    <text x="1110" y="425" font-family="'JetBrains Mono', monospace" font-size="9" fill="#3A5F48" stroke="none" letter-spacing="1">+420.0</text>
+    <text x="1050" y="495" font-family="'JetBrains Mono', monospace" font-size="9" fill="#3A5F48" stroke="none" letter-spacing="1">+415.0</text>
+    <text x="990" y="565" font-family="'JetBrains Mono', monospace" font-size="9" fill="#3A5F48" stroke="none" letter-spacing="1">+410.0</text>
   </g>
 
   <!-- Feinste Vermessungs-Fadenkreuze (Surveyor Grid Crosshairs) -->
@@ -43,8 +43,8 @@
     <!-- Dezente Nordpfeil-Signatur oben rechts -->
     <g transform="translate(1520, 90)">
       <line x1="0" y1="20" x2="0" y2="-15" stroke-width="0.8" />
-      <polygon points="0,-15 -3,-5 0,-8 3,-5" fill="#2B4234" stroke="none" />
-      <text x="-3" y="-20" font-family="'JetBrains Mono', monospace" font-size="8" fill="#2B4234" stroke="none" font-weight="600">N</text>
+      <polygon points="0,-15 -3,-5 0,-8 3,-5" fill="#3A5F48" stroke="none" />
+      <text x="-3" y="-20" font-family="'JetBrains Mono', monospace" font-size="8" fill="#3A5F48" stroke="none" font-weight="600">N</text>
     </g>
   </g>
 </svg>
