@@ -17,15 +17,15 @@ document.addEventListener('DOMContentLoaded', () => {
       title: 'Orientierendes Projekt',
       location: 'HSWT Freising // WS 2024/25 (Projektgruppe 9.1)',
       typology: 'Orientierendes Entwurfsprojekt',
-      summary: 'Das Ziel des Orientierenden Projekts war es, den Studierenden eine fundierte Übersicht über die vier Aufgabenfelder der Landschaftsplanung, Stadtplanung, Freiraumplanung und des Landschaftsbaus zu vermitteln. Die im Portfolio gezeigten Arbeiten dokumentieren die beiden Teilbereiche Stadtplanung und Freiraumplanung. Das Wohnheim-Konzept „Beehive“ entstand dabei als unsere eigene räumlich-gestalterische Entwurfsidee zur vorgegebenen Aufgabenstellung.',
+      summary: 'Das Orientierende Projekt vermittelte einen Einblick in die Aufgabenfelder der Landschafts- und Freiraumplanung, Stadtplanung und des Landschaftsbaus. Die gezeigten Arbeiten dokumentieren die beiden Teilaufgaben Stadtplanung und Freiraumplanung. Das Wohnheim-Konzept „Beehive“ entstand als unsere eigene Entwurfsidee zur Aufgabenstellung.',
       gallery: [
         {
-          label: 'Wohnheim Beehive (Freiraum & Modell)',
+          label: 'Wohnheim Beehive',
           src: 'assets/images/orientierendes-projekt-lageplan.png',
-          caption: 'Wohnheim „Beehive“ (Teilaufgaben Stadt- & Freiraumplanung): Eigene Entwurfsidee mit Innenhof-Lageplan, Freiraumzonen, Wege- und Baumanalysen, Handperspektive und physischem Modellbau.'
+          caption: 'Wohnheim „Beehive“ (Teilaufgaben Stadt- & Freiraumplanung): Eigene Entwurfsidee mit Innenhof-Lageplan, Freiraumzonen, Wege- und Baumanalysen, Handperspektive und Modellbau.'
         },
         {
-          label: 'Gezeichneter Lageplan (Plangrafik)',
+          label: 'Gezeichneter Lageplan',
           src: 'assets/images/semester-01-lageplan-gezeichnet.png',
           caption: 'Handgezeichneter Lageplan (Teilaufgabe Freiraumplanung): Kolorierte Entwurfszeichnung des Wohnheimumfelds mit Raumgeometrie und Gehölzstruktur.'
         }
@@ -40,52 +40,52 @@ document.addEventListener('DOMContentLoaded', () => {
         { label: 'Methoden', value: 'Analyseskizzen, Lageplan, Physischer Modellbau' }
       ],
       pdfUrl: 'assets/pdf/Orientierendes-Projekt-Dossier.pdf',
-      pdfFileSize: 'GESAMT-DOSSIER [PDF 37 MB]'
+      pdfFileSize: 'STUDIENARBEIT [PDF 37 MB]'
     },
     'projekt-02': {
       semester: '02 // SEMESTER 2',
       title: 'Objekt und Quartier',
       location: 'Region Freising // SoSe 2025 (Modul PuE 1)',
       typology: 'Studienarbeit Stadtplanung & Freiraum',
-      summary: 'Aufgabenstellung: Das Modul „Objekt und Quartier“ führt die Disziplinen Stadtplanung, Architektur und Freiraumgestaltung zusammen. Ziel war das Entwerfen von Räumen und Raumwirkungen über mehrere Maßstabsebenen hinweg – von der städtebaulichen Ordnung und hexagonalen Gebäudestruktur (Wabenwerk) bis hin zu Identität, Wegenetzen und Aneignung der Freiräume.',
+      summary: 'Im Modul Planen und Entwerfen 1 (PuE 1) ging es um den Entwurf eines Quartiers und dessen Freiräume. Unser Konzept „Wabenwerk“ setzt auf eine hexagonale Gebäudestruktur mit gemeinschaftlichen Freiräumen, Wegenetzen und Retentionsflächen. Ergänzt wird der Entwurf durch die CAD-Ausarbeitung eines Gemeinschaftsgartens in Vectorworks sowie physische Arbeitsmodelle.',
       gallery: [
         {
-          label: 'Layout Plan (Seite 1: Schwarzplan & Lageplan)',
+          label: 'Layout Blatt 1',
           src: 'assets/images/semester-02-layout-p1.png',
           caption: 'Layout Plan Blatt 1: Schwarzplan, Lageplan sowie Piktogramme zu Gehölzen, Wegeführung und Grünflächen.'
         },
         {
-          label: 'Layout Plan (Seite 2: Grundrisse & Schnitt)',
+          label: 'Layout Blatt 2',
           src: 'assets/images/semester-02-layout-p2.png',
           caption: 'Layout Plan Blatt 2: Grundrisse, Isometrie / Explosionsdarstellung des Baukörpers und Schnittansicht.'
         },
         {
-          label: 'CAD-Lageplan (Gemeinschaftsgarten)',
+          label: 'CAD-Garten',
           src: 'assets/images/semester-02-cad-gemeinschaftsgarten-p1.png',
-          caption: 'CAD-Studienarbeit (Vectorworks): Detaillierter Ausführungs-Lageplan des im Projektentwurf integrierten Gemeinschaftsgartens mit Pflanzkonzept, Beetstrukturen und Wegebelägen.'
+          caption: 'CAD-Studienarbeit (Vectorworks): Ausführungs-Lageplan des im Projektentwurf integrierten Gemeinschaftsgartens mit Pflanzkonzept, Beetstrukturen und Wegebelägen.'
         },
         {
-          label: 'Erste Entwürfe (Skizze Entwurf 1)',
+          label: 'Vorentwurf Skizze',
           src: 'assets/images/semester-02-entwurf-1.png',
           caption: 'Erste Entwürfe: Vorentwurfszeichnung und frühe städtebauliche Variantenuntersuchung im Projektgebiet.'
         },
         {
-          label: 'Erste Entwürfe (Kolorierter Masterplan)',
+          label: 'Masterplan Entwurf',
           src: 'assets/images/projekt-02-entwurf.png',
           caption: 'Erste Entwürfe / Kolorierter Masterplan & Freiraumentwurf: Einbindung der Pavilloncluster in Wasserretentionsbecken und Wegenetz.'
         },
         {
-          label: 'Modell (Foto 1)',
+          label: 'Modell 1',
           src: 'assets/images/semester-02-modell-01.jpg',
           caption: 'Physisches Arbeitsmodell Wabenwerk (IMG_4607): Nahaufnahme der hexagonalen Baukörperstruktur und der Höhenstaffelung.'
         },
         {
-          label: 'Modell (Foto 2)',
+          label: 'Modell 2',
           src: 'assets/images/semester-02-modell-02.jpg',
           caption: 'Physisches Arbeitsmodell Wabenwerk (IMG_4628): Gesamtansicht des Quartiersmodells mit Freiraumzonen und Wegeführung.'
         },
         {
-          label: 'Modell (Foto 3)',
+          label: 'Modell 3',
           src: 'assets/images/semester-02-modell-03.jpg',
           caption: 'Physisches Arbeitsmodell Wabenwerk (IMG_4638): Schrägperspektive der Baukörpercluster und des Gemeinschaftshofs.'
         }
@@ -105,61 +105,80 @@ document.addEventListener('DOMContentLoaded', () => {
       semester: 'MODUL SAG 1 // 2. SEMESTER',
       title: 'Städtebau, Architektur & Gebäudelehre 1',
       location: 'HSWT Freising // SoSe 2025 (Modul SAG 1)',
-      typology: 'Gebäudelehre, Axonometrie & Entwurfslehre',
-      summary: 'Begleitende Entwurfs- und Konstruktionsarbeiten im Modul SAG 1: Analytische Axonometrie und normgerechte Vermaßung eines architektonischen Baukörpers (Schnitt, Grundriss, Höhenkoten) sowie die freie Entwurfsaufgabe „Traumwohnung David Runge“ mit Zonierung von Wohn-, Arbeits- und Freibereichen.',
+      typology: 'Gebäudelehre & Gebäudeanalyse',
+      summary: 'Im Begleitmodul SAG 1 stand die bauliche und architektonische Analyse des berühmten Doppelhauses von Le Corbusier in der Weißenhofsiedlung (Stuttgart 1927) im Mittelpunkt: Von der städtebaulichen Einordnung auf dem Analyseplakat über Handzeichnungen von Fassade und Schnitt bis hin zur analytischen Axonometrie und normgerechten Vermaßung. Ergänzt wird die Reihe durch die freie Entwurfsaufgabe „Traumwohnung David Runge“.',
       gallery: [
         {
-          label: 'Axonometrie (Seite 1)',
+          label: 'Plakat Le Corbusier',
+          src: 'assets/images/sag1-plakat-le-corbusier.png',
+          caption: 'Analyse Doppelhaus Weißenhofsiedlung (Le Corbusier): Plakat mit Schwarzplan, städtebaulichem Lageplan, Grundrissen und Erläuterung der Fünf Punkte einer neuen Architektur.',
+          pdfUrl: 'assets/pdf/SAG1-Plakat-Le-Corbusier.pdf',
+          pdfFileSize: 'PLAKAT LE CORBUSIER [PDF 884 KB]'
+        },
+        {
+          label: 'Fassade & Schnitt',
+          src: 'assets/images/sag1-fassade.png',
+          caption: 'Handzeichnung Schnitt und Fassade (M 1:50): Analyse der linken Haushälfte mit Gliederung der durchlaufenden Fensterbänder und Skelettbau-Tragstruktur.',
+          pdfUrl: 'assets/pdf/SAG1-Runge-David-Fassade.pdf',
+          pdfFileSize: 'FASSADE & SCHNITT [PDF 2.4 MB]'
+        },
+        {
+          label: 'Axonometrie',
           src: 'assets/images/sag1-axometrie-p1.png',
-          caption: 'SAG 1 Axonometrie: Räumliche Dreitafelprojektion und dreidimensionale Schrägbilddarstellung des Baukörpers.'
+          caption: 'Analytische Axonometrie mit Möblierung (M 1:100): Dreidimensionale Schrägbilddarstellung des Doppelhauses zur Untersuchung von Raumbezügen.',
+          pdfUrl: 'assets/pdf/SAG1-Axonometrie-und-Vermassung.pdf',
+          pdfFileSize: 'AXONOMETRIE & VERMASSUNG [PDF 4.9 MB]'
         },
         {
-          label: 'Vermaßung & Schnitt (Seite 2)',
+          label: 'Vermaßung',
           src: 'assets/images/sag1-axometrie-p2.png',
-          caption: 'SAG 1 Vermaßung: Vollständige Bemaßung, Grundrisse, Schnittführungen und Maßketten.'
+          caption: 'Normgerechte Vermaßung (M 1:100): Grundriss mit Bemaßung, Maßketten und Erschließung.',
+          pdfUrl: 'assets/pdf/SAG1-Axonometrie-und-Vermassung.pdf',
+          pdfFileSize: 'AXONOMETRIE & VERMASSUNG [PDF 4.9 MB]'
         },
         {
-          label: 'Traumwohnung (Entwurf)',
+          label: 'Traumwohnung',
           src: 'assets/images/sag1-traumwohnung-p1.png',
-          caption: 'Entwurf SAG 1 „Traumwohnung David Runge“: Raumstruktur, Belichtungsachsen, detaillierter Möblierungsplan und großzügiger Freisitz.'
+          caption: 'Freie Entwurfsaufgabe „Traumwohnung David Runge“: Raumkonzept, Möblierung und Zonierung von Wohn-, Arbeits- und Freibereichen.',
+          pdfUrl: 'assets/pdf/SAG1-Traumwohnung-David-Runge.pdf',
+          pdfFileSize: 'TRAUMWOHNUNG [PDF 290 KB]'
         }
       ],
       specs: [
         { label: 'Studiengang', value: 'B.Sc. Grüne Stadtplanung (HSWT)' },
         { label: 'Semester', value: '2. Semester // Modul SAG 1' },
-        { label: 'Aufgaben', value: 'Axonometrie & Vermaßung + Traumwohnung' },
-        { label: 'Umfang', value: '3 Planseiten (vollständig erfasst)' },
-        { label: 'Technik', value: 'CAD-Konstruktion & Entwurfszeichnung' }
+        { label: 'Thema', value: 'Analyse Doppelhaus Le Corbusier & Traumwohnung' },
+        { label: 'Technik', value: 'Handzeichnung & CAD-Konstruktion' }
       ],
-      pdfUrl: 'assets/pdf/SAG1-Axonometrie-und-Vermassung.pdf',
-      pdfFileSize: 'AXONOMETRIE [PDF]'
+      pdfUrl: 'assets/pdf/SAG1-Plakat-Le-Corbusier.pdf',
+      pdfFileSize: 'PLAKAT LE CORBUSIER [PDF 884 KB]'
     },
     'projekt-03': {
       semester: '03 // SEMESTER 3',
       title: 'Wohnen und Arbeiten im Linzer Kreativquartier',
-      location: 'Projektgebiet Linz Kaplanhof // WS 2025/26',
+      location: 'Projektgebiet Linz Kaplanhof // WS 2025/26 (Modul PuE 2)',
       typology: 'Städtebauliche Rahmenplanung & Stadtentwicklung',
-      summary: 'Aufgabenstellung: Entwicklung eines urbanen, gemischten und vielfältigen Kreativquartiers im Linzer Kaplanhofviertel. Im Fokus stand die schrittweise Transformation des heterogenen Industriegebiets hin zu einer offenen, fließenden Stadtlandschaft mit robuster Freiraumqualität, grünen Wegekorridoren und lebendigen Nutzungsknoten (VABANC).',
+      summary: 'Im Modul Planen und Entwerfen 2 (PuE 2) stand die städtebauliche Entwicklung eines gemischten Kreativquartiers im Linzer Kaplanhofviertel im Mittelpunkt. Unser Entwurf „VABANC“ transformiert das Gewerbe- und Industriegebiet in ein lebendiges Quartier mit neuen Freiräumen, Wegeverbindungen und flexiblen Nutzungen.',
       gallery: [
         {
-          label: 'Plakat VABANC (Seite 1: Masterplan)',
+          label: 'Plakat Masterplan',
           src: 'assets/images/semester-03-plakat-p1.png',
           caption: 'Wettbewerbs- und Präsentationsplakat Gruppe 5 VABANC Seite 1: Lageplan, Schwarz-/Grünplan und Leitbild-Diagramme.'
         },
         {
-          label: 'Plakat VABANC (Seite 2: Freiräume)',
+          label: 'Plakat Freiraum',
           src: 'assets/images/semester-03-plakat-p2.png',
           caption: 'Wettbewerbs- und Präsentationsplakat Gruppe 5 VABANC Seite 2: Städtebauliche Dichte, Freiraumtypologien, Schnitte und Strukturmodell.'
         },
         {
-          label: 'Beispiel-Entwurf (Ideen projektgebiet)',
+          label: 'Ideenplan',
           src: 'assets/images/projekt-03-linz.png',
           caption: 'Beispiel-Entwurf / Ideenplan: Baukörperanordnung, Grünachsen und Gebietsabgrenzung im Kaplanhofviertel.'
         }
       ],
       specs: [
         { label: 'Studiengang', value: 'B.Sc. Grüne Stadtplanung (HSWT)' },
-        { label: 'Semester', value: '3. Semester // Studienarbeit Stadtplanung' },
+        { label: 'Semester', value: '3. Semester // Modul PuE 2' },
         { label: 'Bewertung', value: 'Note 2,7 (Gruppe)' },
         { label: 'Team', value: 'Projektgruppe 5 (VABANC)' },
         { label: 'Projektgebiet', value: 'Linz (Österreich) // Kaplanhofviertel' },
@@ -173,37 +192,37 @@ document.addEventListener('DOMContentLoaded', () => {
       title: 'Städtebau, Architektur & Gebäudelehre 2',
       location: 'HSWT Freising // WS 2025/26 (Modul SAG 2)',
       typology: 'Architektonische Hand- & Konstruktionszeichnungen',
-      summary: 'Entwurfs- und Zeichenarbeiten aus dem Modul SAG 2 (Städtebau, Architektur und Gebäudelehre 2). Die Scan-Serie dokumentiert die zeichnerische Auseinandersetzung mit Baukörperproportionen, Schnittgeometrien, Grundrisszonierungen und räumlichen Freiraumbezügen über alle Maßstabsebenen.',
+      summary: 'Entwurfs- und Zeichenarbeiten aus dem Modul SAG 2 (Städtebau, Architektur und Gebäudelehre 2). Die Scan-Serie dokumentiert die zeichnerische Auseinandersetzung mit Baukörperproportionen, Schnittgeometrien, Grundrisszonierungen und räumlichen Freiraumbezügen über alle Maßstabsebenen hinweg, ergänzt durch die Volumenexperimente.',
       gallery: [
         {
-          label: 'Scan 01: Entwurf & Lage',
+          label: 'Scan 1: Entwurf',
           src: 'assets/images/sag2-scan-p1.png',
           caption: 'SAG 2 Scan Blatt 1: Städtebauliche Verortung, Baukörperfiguration und freiräumliche Vernetzung.'
         },
         {
-          label: 'Scan 02: Grundrisse',
+          label: 'Scan 2: Grundriss',
           src: 'assets/images/sag2-scan-p2.png',
           caption: 'SAG 2 Scan Blatt 2: Grundrissorganisation, Erschließungsachsen und Raumhierarchien.'
         },
         {
-          label: 'Scan 03: Schnitte & Ansichten',
+          label: 'Scan 3: Schnitte',
           src: 'assets/images/sag2-scan-p3.png',
           caption: 'SAG 2 Scan Blatt 3: Gebäudehöhenschnitte, Geländeanschluss und räumliche Proportionen.'
         },
         {
-          label: 'Scan 04: Axonometrie & Details',
+          label: 'Scan 4: Details',
           src: 'assets/images/sag2-scan-p4.png',
           caption: 'SAG 2 Scan Blatt 4: Isometrische Analyse, Baukörperfügung und konstruktive Details.'
         },
         {
-          label: 'Scan 05: Räumliche Ausarbeitung',
+          label: 'Scan 5: Raum',
           src: 'assets/images/sag2-scan-p5.png',
           caption: 'SAG 2 Scan Blatt 5: Plastische Durcharbeitung, Fassadenabwicklung und Raumwirkung.'
         },
         {
-          label: 'Abbildung WÜ1: Volumenexperimente',
+          label: 'Volumenexperimente',
           src: 'assets/images/sag2-volumenexperimente.png',
-          caption: 'SAG 2 Abbildung WÜ1: Dreidimensionale Volumenexperimente und architektonische Raumstudien.'
+          caption: 'Volumenexperimente: Eine Übung aus dem Modul zur Untersuchung räumlicher Baukörper und Proportionen.'
         }
       ],
       specs: [
@@ -220,30 +239,30 @@ document.addEventListener('DOMContentLoaded', () => {
       title: 'Klimakulturstadt Bad Wimpfen',
       location: 'Bad Wimpfen // SoSe 2026 (Modul PuE 3)',
       typology: 'Landscape Urbanism & Klimaanpassung',
-      summary: 'Aufgabenstellung: Ganzheitliche städtebauliche und landschaftsräumliche Gesamtstrategie für die historische Kur- und Denkmalstadt Bad Wimpfen unter den Vorzeichen des Landscape Urbanism. Das Projekt verknüpft historisches Erbe und Denkmalschutz mit aktiver Klimaanpassung – von regionalen Grünringen über Frischluftschneisen bis hin zu konkreten Schutzmaßnahmen gegen Starkregen und Hitze. Ergänzt durch eigene thematische Analysekarten.',
+      summary: 'Im Modul Planen und Entwerfen 3 (PuE 3) ging es um ein städtebauliches und freiräumliches Gesamtkonzept für die historische Kur- und Denkmalstadt Bad Wimpfen. Der Entwurf verbindet Denkmalschutz mit Maßnahmen zur Klimaanpassung – wie Grünringe, Kaltluftschneisen und Retentionsflächen zum Schutz vor Starkregen und Hitze. Dazu kommen drei eigens erstellte Analysekarten.',
       gallery: [
         {
-          label: 'Plakat Wimpfen Scapes (Seite 1)',
+          label: 'Plakat Seite 1',
           src: 'assets/images/semester-04-plakat-p1.png',
           caption: 'Präsentationsplakat „Wimpfen Scapes“ Seite 1: Drivers of Landscape Development, Green Rings & Spatial Concept Map.'
         },
         {
-          label: 'Plakat Wimpfen Scapes (Seite 2)',
+          label: 'Plakat Seite 2',
           src: 'assets/images/semester-04-plakat-p2.png',
           caption: 'Präsentationsplakat „Wimpfen Scapes“ Seite 2: Freiraumachsen, Höhenentwicklung, Klimaresilienz und städtebauliche Profile.'
         },
         {
-          label: 'Analyse: Klimapikto',
+          label: 'Klimapikto',
           src: 'assets/images/semester-04-klimapikto.png',
           caption: 'Eigene Analysekarte: Bioklimatische Wirkungsräume, Hitzeinseln und Kaltluftbahnen in Bad Wimpfen.'
         },
         {
-          label: 'Analyse: Mobilitätspikto',
+          label: 'Mobilitätspikto',
           src: 'assets/images/semester-04-mobilitaetspikto.png',
           caption: 'Eigene Analysekarte: Fuß- und Radwegenetze, Barrieren, Topographie und Mobilitätsknotenpunkte.'
         },
         {
-          label: 'Analyse: Potenzialpikto',
+          label: 'Potenzialpikto',
           src: 'assets/images/semester-04-potenzialpikto.png',
           caption: 'Eigene Analysekarte: Freiraumpotenziale, historische Hangkanten und Vernetzungsachsen.'
         }
@@ -292,47 +311,6 @@ document.addEventListener('DOMContentLoaded', () => {
         { label: 'Hochschule', value: 'HSWT Freising' },
         { label: 'Semester', value: '1., 2. & 4. Semester' },
         { label: 'Disziplinen', value: 'Plastische Raumstudien & Freihandzeichnung' }
-      ],
-      pdfUrl: null
-    },
-    'projekt-realschule': {
-      semester: 'KREATIVE ARBEITEN // REALSCHULE',
-      title: 'Kreative Arbeiten',
-      location: 'Kastulus Realschule Moosburg',
-      typology: 'Freies Zeichnen & Gestalten',
-      summary: 'Ausgewählte kreative und bildnerische Arbeiten aus der Realschulzeit an der Kastulus Realschule Moosburg.',
-      gallery: [
-        {
-          label: 'Bild 1',
-          src: 'assets/images/kreativ/realschule-01.jpg',
-          caption: ''
-        },
-        {
-          label: 'Bild 2',
-          src: 'assets/images/kreativ/realschule-02.jpg',
-          caption: ''
-        },
-        {
-          label: 'Bild 3',
-          src: 'assets/images/kreativ/realschule-03.jpg',
-          caption: ''
-        },
-        {
-          label: 'Bild 4',
-          src: 'assets/images/kreativ/realschule-04.jpg',
-          caption: ''
-        },
-        {
-          label: 'Bild 5',
-          src: 'assets/images/kreativ/realschule-05.jpg',
-          caption: ''
-        }
-      ],
-      specs: [
-        { label: 'Bereich', value: 'Bildnerisches Gestalten & Zeichnen' },
-        { label: 'Schule', value: 'Kastulus Realschule Moosburg' },
-        { label: 'Umfang', value: '5 Arbeiten' },
-        { label: 'Technik', value: 'Zeichnung, Malerei & Grafik' }
       ],
       pdfUrl: null
     }
@@ -441,6 +419,27 @@ document.addEventListener('DOMContentLoaded', () => {
       modalGalleryNav.querySelectorAll('.modal-tab-btn').forEach((btn, i) => {
         btn.classList.toggle('active', i === idx);
       });
+    }
+
+    // Download-Button dynamisch passend zum aktiven Tab aktualisieren
+    const modalDownloadBox = modal ? modal.querySelector('.modal-download-box') : null;
+    if (modalDownloadBox && modalPdfBtn) {
+      const activePdfUrl = item.pdfUrl || currentProject.pdfUrl;
+      const activePdfLabel = item.pdfFileSize || currentProject.pdfFileSize;
+      if (activePdfUrl) {
+        modalDownloadBox.style.display = 'block';
+        modalPdfBtn.href = activePdfUrl;
+        modalPdfBtn.innerHTML = `
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          ${activePdfLabel || 'PDF'} ÖFFNEN / HERUNTERLADEN
+        `;
+      } else {
+        modalDownloadBox.style.display = 'none';
+      }
     }
   }
 
@@ -579,7 +578,8 @@ document.addEventListener('DOMContentLoaded', () => {
      ========================================================================== */
   const mobileToggle = document.querySelector('.mobile-toggle');
   if (mobileToggle && header) {
-    mobileToggle.addEventListener('click', () => {
+    mobileToggle.addEventListener('click', (e) => {
+      e.stopPropagation();
       header.classList.toggle('is-mobile-open');
     });
 
@@ -587,6 +587,19 @@ document.addEventListener('DOMContentLoaded', () => {
       link.addEventListener('click', () => {
         header.classList.remove('is-mobile-open');
       });
+    });
+
+    const mobileCta = header.querySelector('.nav-cta-mobile');
+    if (mobileCta) {
+      mobileCta.addEventListener('click', () => {
+        header.classList.remove('is-mobile-open');
+      });
+    }
+
+    document.addEventListener('click', (e) => {
+      if (header.classList.contains('is-mobile-open') && !header.contains(e.target)) {
+        header.classList.remove('is-mobile-open');
+      }
     });
   }
 
