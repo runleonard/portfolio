@@ -1,24 +1,160 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none" stroke="#2B4234" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.18">
-  <!-- Topographic Contour Lines / Höhenlinien M 1:500 Simulation -->
-  <path d="M-50,150 C200,80 400,220 650,160 C900,100 1050,260 1250,200" />
-  <path d="M-50,230 C180,160 380,310 630,240 C880,170 1020,340 1250,290" />
-  <path d="M-50,310 C160,240 360,400 610,320 C860,240 1000,420 1250,380" />
-  <path d="M-50,390 C140,320 340,480 590,410 C840,330 970,510 1250,470" />
-  <path d="M-50,480 C120,410 320,570 570,500 C820,430 950,600 1250,560" />
-  <path d="M-50,570 C100,500 300,660 550,590 C800,520 930,690 1250,650" />
-  <path d="M-50,660 C80,590 280,750 530,680 C780,610 910,780 1250,740" />
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" fill="none" stroke="#2B4234" stroke-linecap="round" stroke-linejoin="round">
+  
+  <!-- ========================================================================
+       LINKE SEITE: SUBTILE ARCHITEKTUR / URBANE FASSADEN & BÄUME
+       ======================================================================== -->
+  <g opacity="0.14" stroke-width="0.9">
+    <!-- Gebäude A: Baukörper mit Staffelgeschoss & Pfosten-Riegel-Rhythmus -->
+    <rect x="50" y="280" width="110" height="420" stroke-width="1.1" />
+    <rect x="65" y="240" width="80" height="40" stroke-width="1.1" stroke-dasharray="3 3" />
+    <!-- Horizontale Geschosslinien -->
+    <line x1="50" y1="340" x2="160" y2="340" />
+    <line x1="50" y1="400" x2="160" y2="400" />
+    <line x1="50" y1="460" x2="160" y2="460" />
+    <line x1="50" y1="520" x2="160" y2="520" />
+    <line x1="50" y1="580" x2="160" y2="580" />
+    <line x1="50" y1="640" x2="160" y2="640" />
+    <!-- Vertikale Fassadenteilung -->
+    <line x1="86" y1="280" x2="86" y2="700" stroke-width="0.6" stroke-dasharray="2 4" />
+    <line x1="124" y1="280" x2="124" y2="700" stroke-width="0.6" stroke-dasharray="2 4" />
 
-  <!-- Contour Elevation Labels (Höhenkoten) -->
-  <text x="320" y="215" font-family="'JetBrains Mono', monospace" font-size="10" fill="#2B4234" opacity="0.6" letter-spacing="1">+518.50</text>
-  <text x="680" y="315" font-family="'JetBrains Mono', monospace" font-size="10" fill="#2B4234" opacity="0.6" letter-spacing="1">+520.00</text>
-  <text x="890" y="505" font-family="'JetBrains Mono', monospace" font-size="10" fill="#2B4234" opacity="0.6" letter-spacing="1">+522.50</text>
-  <text x="180" y="565" font-family="'JetBrains Mono', monospace" font-size="10" fill="#2B4234" opacity="0.6" letter-spacing="1">+525.00</text>
+    <!-- Gebäude B: Transparenter Baukörper im Hintergrund -->
+    <rect x="190" y="210" width="130" height="490" stroke-width="1.1" />
+    <line x1="190" y1="280" x2="320" y2="280" />
+    <line x1="190" y1="350" x2="320" y2="350" />
+    <line x1="190" y1="420" x2="320" y2="420" />
+    <line x1="190" y1="490" x2="320" y2="490" />
+    <line x1="190" y1="560" x2="320" y2="560" />
+    <line x1="190" y1="630" x2="320" y2="630" />
+    <!-- Fensteröffnungen / Raster -->
+    <rect x="210" y="235" width="35" height="30" stroke-width="0.6" />
+    <rect x="265" y="235" width="35" height="30" stroke-width="0.6" />
+    <rect x="210" y="305" width="35" height="30" stroke-width="0.6" />
+    <rect x="265" y="305" width="35" height="30" stroke-width="0.6" />
+    <rect x="210" y="375" width="35" height="30" stroke-width="0.6" />
+    <rect x="265" y="375" width="35" height="30" stroke-width="0.6" />
 
-  <!-- Architectural Grid Marks (Achsenkreuze) -->
-  <path d="M 200,100 L 200,120 M 190,110 L 210,110" opacity="0.3" />
-  <path d="M 600,100 L 600,120 M 590,110 L 610,110" opacity="0.3" />
-  <path d="M 1000,100 L 1000,120 M 990,110 L 1010,110" opacity="0.3" />
-  <path d="M 200,500 L 200,520 M 190,510 L 210,510" opacity="0.3" />
-  <path d="M 600,500 L 600,520 M 590,510 L 610,510" opacity="0.3" />
-  <path d="M 1000,500 L 1000,520 M 990,510 L 1010,510" opacity="0.3" />
+    <!-- Gebäude C: Flacher Pavillon mit Vordach -->
+    <rect x="340" y="440" width="120" height="260" stroke-width="1.1" />
+    <line x1="330" y1="440" x2="470" y2="440" stroke-width="1.5" />
+    <line x1="370" y1="440" x2="370" y2="700" stroke-width="0.6" />
+    <line x1="410" y1="440" x2="410" y2="700" stroke-width="0.6" />
+
+    <!-- Isometrische Fluchtlinien (Perspektivische Andeutung) -->
+    <line x1="160" y1="280" x2="190" y2="260" stroke-dasharray="2 3" />
+    <line x1="320" y1="210" x2="360" y2="185" stroke-dasharray="2 3" />
+    <line x1="460" y1="440" x2="500" y2="415" stroke-dasharray="2 3" />
+
+    <!-- Architektur-Höhenkoten (Links) -->
+    <text x="170" y="200" font-family="'JetBrains Mono', monospace" font-size="9" fill="#2B4234" stroke="none">+21.50 OK Attika</text>
+    <text x="35" y="270" font-family="'JetBrains Mono', monospace" font-size="9" fill="#2B4234" stroke="none">+14.20</text>
+    <text x="350" y="430" font-family="'JetBrains Mono', monospace" font-size="9" fill="#2B4234" stroke="none">+4.50</text>
+  </g>
+
+  <!-- Bäume / Gehölze (Linke Seite - Plan- & Ansichts-Grafik) -->
+  <g opacity="0.16" stroke-width="0.8">
+    <!-- Solitärbaum 1 (Krone mit Radialstrichen) -->
+    <circle cx="175" cy="540" r="32" stroke-width="1.1" stroke-dasharray="4 2" />
+    <circle cx="175" cy="540" r="4" fill="#2B4234" />
+    <line x1="175" y1="508" x2="175" y2="572" stroke-width="0.6" />
+    <line x1="143" y1="540" x2="207" y2="540" stroke-width="0.6" />
+
+    <!-- Solitärbaum 2 (Kleiner Baum) -->
+    <circle cx="335" cy="580" r="22" stroke-width="1.1" />
+    <circle cx="335" cy="580" r="3" fill="#2B4234" />
+
+    <!-- Baumgruppe vor Fassade -->
+    <circle cx="115" cy="670" r="26" stroke-width="0.9" stroke-dasharray="3 2" />
+    <circle cx="115" cy="670" r="3" fill="#2B4234" />
+    <circle cx="145" cy="690" r="20" stroke-width="0.8" />
+  </g>
+
+
+  <!-- ========================================================================
+       MITTE & VERBINDUNG: ACHSEN, KOORDINATEN & GELÄNDELINIE
+       ======================================================================== -->
+  <g opacity="0.12" stroke-width="0.7">
+    <!-- Gelände-Bezugslinie (Datum Line) -->
+    <line x1="30" y1="700" x2="1570" y2="700" stroke-width="1.2" />
+    <line x1="30" y1="706" x2="1570" y2="706" stroke-dasharray="1 5" stroke-width="0.8" />
+    
+    <!-- Modulare Rastermarken / Achsenkreuze -->
+    <path d="M 100,100 L 100,120 M 90,110 L 110,110" />
+    <path d="M 400,100 L 400,120 M 390,110 L 410,110" />
+    <path d="M 800,100 L 800,120 M 790,110 L 810,110" />
+    <path d="M 1200,100 L 1200,120 M 1190,110 L 1210,110" />
+    <path d="M 1500,100 L 1500,120 M 1490,110 L 1510,110" />
+
+    <path d="M 400,700 L 400,720 M 390,710 L 410,710" />
+    <path d="M 800,700 L 800,720 M 790,710 L 810,710" />
+    <path d="M 1200,700 L 1200,720 M 1190,710 L 1210,710" />
+
+    <!-- Nordpfeil (Oben rechts) -->
+    <g transform="translate(1480, 80)">
+      <polygon points="0,0 5,-28 10,0 5,-6" fill="#2B4234" stroke="none" opacity="0.8" />
+      <polygon points="5,-28 5,-6 0,0" fill="#FFFFFF" stroke="none" />
+      <line x1="5" y1="2" x2="5" y2="-32" stroke-width="0.8" />
+      <text x="2" y="-36" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600" fill="#2B4234" stroke="none">N</text>
+    </g>
+  </g>
+
+
+  <!-- ========================================================================
+       RECHTE SEITE: HÖHENLINIEN, RETENTIONSBECKEN, WABEN & LANDSCHAFT
+       ======================================================================== -->
+  <g opacity="0.18" stroke-width="1.1">
+    <!-- Organische Höhenlinien (Landscape Topography) -->
+    <path d="M520,150 C750,90 980,220 1200,160 C1380,110 1480,240 1620,190" />
+    <path d="M500,230 C730,170 960,300 1180,240 C1360,190 1460,320 1620,270" />
+    <path d="M480,310 C710,250 940,380 1160,320 C1340,270 1440,400 1620,350" />
+    <path d="M460,400 C690,330 920,470 1140,400 C1320,350 1420,480 1620,430" />
+    <path d="M440,490 C670,420 900,560 1120,490 C1300,430 1400,570 1620,520" />
+    <path d="M420,590 C650,510 880,650 1100,580 C1280,520 1380,660 1620,610" />
+    <path d="M400,690 C630,600 860,740 1080,670 C1260,610 1360,750 1620,700" />
+
+    <!-- Höhenkoten Beschriftung (Rechts) -->
+    <text x="740" y="210" font-family="'JetBrains Mono', monospace" font-size="9" fill="#2B4234" stroke="none">+518.00 m</text>
+    <text x="960" y="325" font-family="'JetBrains Mono', monospace" font-size="9" fill="#2B4234" stroke="none">+520.00 m</text>
+    <text x="1190" y="420" font-family="'JetBrains Mono', monospace" font-size="9" fill="#2B4234" stroke="none">+522.50 m</text>
+    <text x="1420" y="505" font-family="'JetBrains Mono', monospace" font-size="9" fill="#2B4234" stroke="none">+525.00 m</text>
+  </g>
+
+  <!-- Wabenwerk-Cluster & Retentionsbecken (Landschaftsarchitektur-Elemente) -->
+  <g opacity="0.15" stroke-width="0.9">
+    <!-- Retentionsbecken / Feuchtbiotop-Kurve -->
+    <path d="M1250,560 C1290,530 1350,540 1380,570 C1410,600 1390,640 1340,650 C1290,660 1230,620 1230,590 Z" 
+          stroke-dasharray="3 3" stroke-width="1.2" />
+    <text x="1275" y="605" font-family="'JetBrains Mono', monospace" font-size="8" fill="#2B4234" stroke="none">Retention</text>
+
+    <!-- Hexagonale Wabenstruktur (Wabenwerk Referenz) -->
+    <polygon points="1120,440 1140,428 1160,440 1160,463 1140,475 1120,463" stroke-width="1.1" />
+    <polygon points="1160,440 1180,428 1200,440 1200,463 1180,475 1160,463" stroke-width="1.1" />
+    <polygon points="1140,475 1160,463 1180,475 1180,498 1160,510 1140,498" stroke-width="1.1" />
+
+    <!-- Grünvernetzungs-Achse -->
+    <path d="M1060,530 Q1150,500 1240,550 T1400,600" stroke-dasharray="2 4" stroke-width="1.2" />
+
+    <!-- Baumpflanzungen entlang der Kante (Baumkronen-Signaturen) -->
+    <circle cx="1070" cy="510" r="16" stroke-width="0.8" />
+    <circle cx="1070" cy="510" r="2.5" fill="#2B4234" />
+    
+    <circle cx="1105" cy="495" r="14" stroke-width="0.8" />
+    <circle cx="1105" cy="495" r="2" fill="#2B4234" />
+
+    <circle cx="1215" cy="535" r="18" stroke-width="0.8" />
+    <circle cx="1215" cy="535" r="3" fill="#2B4234" />
+
+    <circle cx="1395" cy="540" r="22" stroke-width="0.9" stroke-dasharray="3 2" />
+    <circle cx="1395" cy="540" r="3.5" fill="#2B4234" />
+
+    <circle cx="1435" cy="565" r="17" stroke-width="0.8" />
+    <circle cx="1435" cy="565" r="2.5" fill="#2B4234" />
+
+    <!-- Freiraum-Schraffur (Diagonal 45°) -->
+    <line x1="1260" y1="460" x2="1300" y2="420" stroke-width="0.5" />
+    <line x1="1270" y1="465" x2="1310" y2="425" stroke-width="0.5" />
+    <line x1="1280" y1="470" x2="1320" y2="430" stroke-width="0.5" />
+    <line x1="1290" y1="475" x2="1330" y2="435" stroke-width="0.5" />
+  </g>
+
 </svg>

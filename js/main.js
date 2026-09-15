@@ -33,6 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
       specs: [
         { label: 'Studiengang', value: 'B.Sc. Grüne Stadtplanung (HSWT)' },
         { label: 'Semester', value: '1. Semester // Orientierendes Projekt' },
+        { label: 'Bewertung', value: 'Note 2,3 (Gruppe)' },
         { label: 'Projektgruppe', value: 'Projektgruppe 9.1' },
         { label: 'Aufgabenfelder', value: 'Landschaftsplanung, Stadtplanung, Freiraum, Landschaftsbau' },
         { label: 'Methoden', value: 'Analyseskizzen, Lageplan, Physischer Modellbau' }
@@ -91,6 +92,7 @@ document.addEventListener('DOMContentLoaded', () => {
       specs: [
         { label: 'Studiengang', value: 'B.Sc. Grüne Stadtplanung (HSWT)' },
         { label: 'Semester', value: '2. Semester // Modul PuE 1' },
+        { label: 'Bewertung', value: 'Note 2,0 (Gruppe)' },
         { label: 'Projektname', value: 'Wabenwerk – Gemeinsam leben, nachhaltig wohnen' },
         { label: 'Autoren', value: 'Möritz, Rentz, Runge, Neudecker' },
         { label: 'Software & CAD', value: 'Vectorworks (2D/3D), Plangrafik' }
@@ -157,6 +159,7 @@ document.addEventListener('DOMContentLoaded', () => {
       specs: [
         { label: 'Studiengang', value: 'B.Sc. Grüne Stadtplanung (HSWT)' },
         { label: 'Semester', value: '3. Semester // Studienarbeit Stadtplanung' },
+        { label: 'Bewertung', value: 'Note 2,7 (Gruppe)' },
         { label: 'Team', value: 'Projektgruppe 5 (VABANC)' },
         { label: 'Projektgebiet', value: 'Linz (Österreich) // Kaplanhofviertel' },
         { label: 'Themen', value: 'Kreativquartier, Mobilität, Freiraumvernetzung' }
@@ -243,6 +246,7 @@ document.addEventListener('DOMContentLoaded', () => {
       specs: [
         { label: 'Studiengang', value: 'B.Sc. Grüne Stadtplanung (HSWT)' },
         { label: 'Semester', value: '4. Semester // Modul PuE 3' },
+        { label: 'Bewertung', value: 'Note 2,7 (Gruppe)' },
         { label: 'Projektname', value: 'Wimpfen Scapes – Klimakulturstadt' },
         { label: 'Methode', value: 'Landscape Urbanism & Klimaanpassung' },
         { label: 'Bestandteile', value: 'Präsentationsplakat (2 Seiten) & 3 Analysekarten' }
