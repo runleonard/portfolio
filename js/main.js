@@ -589,12 +589,11 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
 
-    const mobileCta = header.querySelector('.nav-cta-mobile');
-    if (mobileCta) {
+    header.querySelectorAll('.nav-cta-mobile').forEach(mobileCta => {
       mobileCta.addEventListener('click', () => {
         header.classList.remove('is-mobile-open');
       });
-    }
+    });
 
     document.addEventListener('click', (e) => {
       if (header.classList.contains('is-mobile-open') && !header.contains(e.target)) {
