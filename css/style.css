@@ -4,18 +4,18 @@
    ========================================================================== */
 
 :root {
-  /* Farbpalette: Natürlich-architektonisch (Warmes, minimales Creme / Elfenbein-Papier) */
-  --bg-primary: #FAF7F2;
+  /* Farbpalette: Natürlich-architektonisch (Sehr helles, warmes Creme / Hauch von Elfenbein) */
+  --bg-primary: #FCFBF8;
   --bg-surface: #FFFFFF;
-  --bg-subtle: #F2EFE8;
-  --bg-accent-tint: #EFF4EE;
+  --bg-subtle: #F6F4EE;
+  --bg-accent-tint: #F2F5F0;
   
-  --text-primary: #161816;
-  --text-secondary: #5C625B;
-  --text-muted: #8A9087;
+  --text-primary: #151816;
+  --text-secondary: #586058;
+  --text-muted: #889086;
   
-  --border-color: #E8E4DC;
-  --border-dark: #161816;
+  --border-color: #EBE7DF;
+  --border-dark: #151816;
   
   /* Aufgehellte Wald- & Pinien-Grüntöne (subtile, elegante Akzente) */
   --accent-green: #3A5F48;
