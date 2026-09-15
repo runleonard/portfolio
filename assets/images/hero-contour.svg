@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none" stroke="#2B4234" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.18">
+  <!-- Topographic Contour Lines / Höhenlinien M 1:500 Simulation -->
+  <path d="M-50,150 C200,80 400,220 650,160 C900,100 1050,260 1250,200" />
+  <path d="M-50,230 C180,160 380,310 630,240 C880,170 1020,340 1250,290" />
+  <path d="M-50,310 C160,240 360,400 610,320 C860,240 1000,420 1250,380" />
+  <path d="M-50,390 C140,320 340,480 590,410 C840,330 970,510 1250,470" />
+  <path d="M-50,480 C120,410 320,570 570,500 C820,430 950,600 1250,560" />
+  <path d="M-50,570 C100,500 300,660 550,590 C800,520 930,690 1250,650" />
+  <path d="M-50,660 C80,590 280,750 530,680 C780,610 910,780 1250,740" />
+
+  <!-- Contour Elevation Labels (Höhenkoten) -->
+  <text x="320" y="215" font-family="'JetBrains Mono', monospace" font-size="10" fill="#2B4234" opacity="0.6" letter-spacing="1">+518.50</text>
+  <text x="680" y="315" font-family="'JetBrains Mono', monospace" font-size="10" fill="#2B4234" opacity="0.6" letter-spacing="1">+520.00</text>
+  <text x="890" y="505" font-family="'JetBrains Mono', monospace" font-size="10" fill="#2B4234" opacity="0.6" letter-spacing="1">+522.50</text>
+  <text x="180" y="565" font-family="'JetBrains Mono', monospace" font-size="10" fill="#2B4234" opacity="0.6" letter-spacing="1">+525.00</text>
+
+  <!-- Architectural Grid Marks (Achsenkreuze) -->
+  <path d="M 200,100 L 200,120 M 190,110 L 210,110" opacity="0.3" />
+  <path d="M 600,100 L 600,120 M 590,110 L 610,110" opacity="0.3" />
+  <path d="M 1000,100 L 1000,120 M 990,110 L 1010,110" opacity="0.3" />
+  <path d="M 200,500 L 200,520 M 190,510 L 210,510" opacity="0.3" />
+  <path d="M 600,500 L 600,520 M 590,510 L 610,510" opacity="0.3" />
+  <path d="M 1000,500 L 1000,520 M 990,510 L 1010,510" opacity="0.3" />
+</svg>
