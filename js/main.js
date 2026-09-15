@@ -35,8 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { label: 'Semester', value: '1. Semester // Orientierendes Projekt' },
         { label: 'Projektgruppe', value: 'Projektgruppe 9.1' },
         { label: 'Aufgabenfelder', value: 'Landschaftsplanung, Stadtplanung, Freiraum, Landschaftsbau' },
-        { label: 'Methoden', value: 'Analyseskizzen, Lageplan, Physischer Modellbau' },
-        { label: 'Unterlagen', value: 'Vollständiges Projektdossier (37 MB)' }
+        { label: 'Methoden', value: 'Analyseskizzen, Lageplan, Physischer Modellbau' }
       ],
       pdfUrl: 'assets/pdf/Orientierendes-Projekt-Dossier.pdf',
       pdfFileSize: 'GESAMT-DOSSIER [PDF 37 MB]'
@@ -51,12 +50,12 @@ document.addEventListener('DOMContentLoaded', () => {
         {
           label: 'Layout Plan (Seite 1: Schwarzplan & Lageplan)',
           src: 'assets/images/semester-02-layout-p1.png',
-          caption: 'Layout Plan Blatt 1: Schwarzplan M 1:2500, Lageplan M 1:1000 sowie Piktogramme zu Gehölzen, Wegeführung und Grünflächen.'
+          caption: 'Layout Plan Blatt 1: Schwarzplan, Lageplan sowie Piktogramme zu Gehölzen, Wegeführung und Grünflächen.'
         },
         {
           label: 'Layout Plan (Seite 2: Grundrisse & Schnitt)',
           src: 'assets/images/semester-02-layout-p2.png',
-          caption: 'Layout Plan Blatt 2: Grundrisse, Isometrie / Explosionsdarstellung des Baukörpers und Schnittansicht M 1:200.'
+          caption: 'Layout Plan Blatt 2: Grundrisse, Isometrie / Explosionsdarstellung des Baukörpers und Schnittansicht.'
         },
         {
           label: 'CAD-Lageplan (Gemeinschaftsgarten)',
@@ -71,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
           label: 'Erste Entwürfe (Kolorierter Masterplan)',
           src: 'assets/images/projekt-02-entwurf.png',
-          caption: 'Erste Entwürfe / Kolorierter Masterplan & Freiraumentwurf M 1:500: Einbindung der Pavilloncluster in Wasserretentionsbecken und Wegenetz.'
+          caption: 'Erste Entwürfe / Kolorierter Masterplan & Freiraumentwurf: Einbindung der Pavilloncluster in Wasserretentionsbecken und Wegenetz.'
         },
         {
           label: 'Modell (Foto 1)',
@@ -94,8 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { label: 'Semester', value: '2. Semester // Modul PuE 1' },
         { label: 'Projektname', value: 'Wabenwerk – Gemeinsam leben, nachhaltig wohnen' },
         { label: 'Autoren', value: 'Möritz, Rentz, Runge, Neudecker' },
-        { label: 'Software & CAD', value: 'Vectorworks (2D/3D), Plangrafik' },
-        { label: 'Unterlagen', value: 'Layout-Plan (2 Seiten) & Entwurfsdossier' }
+        { label: 'Software & CAD', value: 'Vectorworks (2D/3D), Plangrafik' }
       ],
       pdfUrl: 'assets/pdf/Semester-02-LAYOUT-PLAENE.pdf',
       pdfFileSize: 'LAYOUT-PLAN [PDF 2.5 MB]'
@@ -128,8 +126,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { label: 'Semester', value: '2. Semester // Modul SAG 1' },
         { label: 'Aufgaben', value: 'Axonometrie & Vermaßung + Traumwohnung' },
         { label: 'Umfang', value: '3 Planseiten (vollständig erfasst)' },
-        { label: 'Technik', value: 'CAD-Konstruktion & Entwurfszeichnung' },
-        { label: 'Unterlagen', value: 'Original-PDFs als Einzeldokumente verfügbar' }
+        { label: 'Technik', value: 'CAD-Konstruktion & Entwurfszeichnung' }
       ],
       pdfUrl: 'assets/pdf/SAG1-Axonometrie-und-Vermassung.pdf',
       pdfFileSize: 'AXONOMETRIE [PDF]'
@@ -144,7 +141,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
           label: 'Plakat VABANC (Seite 1: Masterplan)',
           src: 'assets/images/semester-03-plakat-p1.png',
-          caption: 'Wettbewerbs- und Präsentationsplakat Gruppe 5 VABANC Seite 1: Lageplan M 1:2000, Schwarz-/Grünplan M 1:5000 und Leitbild-Diagramme.'
+          caption: 'Wettbewerbs- und Präsentationsplakat Gruppe 5 VABANC Seite 1: Lageplan, Schwarz-/Grünplan und Leitbild-Diagramme.'
         },
         {
           label: 'Plakat VABANC (Seite 2: Freiräume)',
@@ -162,8 +159,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { label: 'Semester', value: '3. Semester // Studienarbeit Stadtplanung' },
         { label: 'Team', value: 'Projektgruppe 5 (VABANC)' },
         { label: 'Projektgebiet', value: 'Linz (Österreich) // Kaplanhofviertel' },
-        { label: 'Themen', value: 'Kreativquartier, Mobilität, Freiraumvernetzung' },
-        { label: 'Pläne', value: 'Großformatiges Plakat (2 Seiten) M 1:2000 & Strukturplan' }
+        { label: 'Themen', value: 'Kreativquartier, Mobilität, Freiraumvernetzung' }
       ],
       pdfUrl: 'assets/pdf/Semester-03-Plakat-VABANC.pdf',
       pdfFileSize: 'PLAKAT VABANC [PDF 25 MB]'
@@ -173,7 +169,7 @@ document.addEventListener('DOMContentLoaded', () => {
       title: 'Städtebau, Architektur & Gebäudelehre 2',
       location: 'HSWT Freising // WS 2024/25 (Modul SAG 2)',
       typology: 'Architektonische Hand- & Konstruktionszeichnungen',
-      summary: 'Entwurfs- und Zeichenarbeiten aus dem Modul SAG 2 (Städtebau, Architektur und Gebäudelehre 2). Die fünfteilige Scan-Serie dokumentiert die zeichnerische Auseinandersetzung mit Baukörperproportionen, Schnittgeometrien, Grundrisszonierungen und räumlichen Freiraumbezügen über alle Maßstabsebenen.',
+      summary: 'Entwurfs- und Zeichenarbeiten aus dem Modul SAG 2 (Städtebau, Architektur und Gebäudelehre 2). Die Scan-Serie dokumentiert die zeichnerische Auseinandersetzung mit Baukörperproportionen, Schnittgeometrien, Grundrisszonierungen und räumlichen Freiraumbezügen über alle Maßstabsebenen.',
       gallery: [
         {
           label: 'Scan 01: Entwurf & Lage',
@@ -204,10 +200,9 @@ document.addEventListener('DOMContentLoaded', () => {
       specs: [
         { label: 'Studiengang', value: 'B.Sc. Grüne Stadtplanung (HSWT)' },
         { label: 'Semester', value: '3. Semester // Modul SAG 2' },
-        { label: 'Umfang', value: '5 Scanblätter (vollständig erfasst)' },
+        { label: 'Umfang', value: 'Scanblätter (vollständig erfasst)' },
         { label: 'Darstellung', value: 'Konstruktionszeichnung, Schnitt & Axonometrie' },
-        { label: 'Technik', value: 'Handzeichnung, Bleistift & Tusche' },
-        { label: 'Unterlagen', value: 'Vollständige Scanserie [PDF 3.6 MB]' }
+        { label: 'Technik', value: 'Handzeichnung, Bleistift & Tusche' }
       ],
       pdfUrl: 'assets/pdf/SAG2-Scans-David-Runge.pdf',
       pdfFileSize: 'SAG 2 SCANS [PDF 3.6 MB]'
@@ -217,17 +212,32 @@ document.addEventListener('DOMContentLoaded', () => {
       title: 'Klimakulturstadt Bad Wimpfen',
       location: 'Bad Wimpfen // SoSe 2025 (Modul PuE 3)',
       typology: 'Landscape Urbanism & Klimaanpassung',
-      summary: 'Aufgabenstellung: Ganzheitliche städtebauliche und landschaftsräumliche Gesamtstrategie für die historische Kur- und Denkmalstadt Bad Wimpfen unter den Vorzeichen des Landscape Urbanism. Das Projekt verknüpft historisches Erbe und Denkmalschutz mit aktiver Klimaanpassung – von regionalen Grünringen über Frischluftschneisen bis hin zu konkreten Schutzmaßnahmen gegen Starkregen und Hitze.',
+      summary: 'Aufgabenstellung: Ganzheitliche städtebauliche und landschaftsräumliche Gesamtstrategie für die historische Kur- und Denkmalstadt Bad Wimpfen unter den Vorzeichen des Landscape Urbanism. Das Projekt verknüpft historisches Erbe und Denkmalschutz mit aktiver Klimaanpassung – von regionalen Grünringen über Frischluftschneisen bis hin zu konkreten Schutzmaßnahmen gegen Starkregen und Hitze. Ergänzt durch eigene thematische Analysekarten.',
       gallery: [
         {
           label: 'Plakat Wimpfen Scapes (Seite 1)',
           src: 'assets/images/semester-04-plakat-p1.png',
-          caption: 'Präsentationsplakat „Wimpfen Scapes“ Seite 1: Drivers of Landscape Development, Green Rings & Spatial Concept Map M 1:10.000.'
+          caption: 'Präsentationsplakat „Wimpfen Scapes“ Seite 1: Drivers of Landscape Development, Green Rings & Spatial Concept Map.'
         },
         {
           label: 'Plakat Wimpfen Scapes (Seite 2)',
           src: 'assets/images/semester-04-plakat-p2.png',
           caption: 'Präsentationsplakat „Wimpfen Scapes“ Seite 2: Freiraumachsen, Höhenentwicklung, Klimaresilienz und städtebauliche Profile.'
+        },
+        {
+          label: 'Analyse: Klimapikto',
+          src: 'assets/images/semester-04-klimapikto.png',
+          caption: 'Eigene Analysekarte: Bioklimatische Wirkungsräume, Hitzeinseln und Kaltluftbahnen in Bad Wimpfen.'
+        },
+        {
+          label: 'Analyse: Mobilitätspikto',
+          src: 'assets/images/semester-04-mobilitaetspikto.png',
+          caption: 'Eigene Analysekarte: Fuß- und Radwegenetze, Barrieren, Topographie und Mobilitätsknotenpunkte.'
+        },
+        {
+          label: 'Analyse: Potenzialpikto',
+          src: 'assets/images/semester-04-potenzialpikto.png',
+          caption: 'Eigene Analysekarte: Freiraumpotenziale, historische Hangkanten und Vernetzungsachsen.'
         }
       ],
       specs: [
@@ -235,8 +245,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { label: 'Semester', value: '4. Semester // Modul PuE 3' },
         { label: 'Projektname', value: 'Wimpfen Scapes – Klimakulturstadt' },
         { label: 'Methode', value: 'Landscape Urbanism & Klimaanpassung' },
-        { label: 'Maßstab', value: 'Spatial Concept Map M 1:10.000' },
-        { label: 'Unterlagen', value: 'Präsentationsplakat (2 Seiten) [PDF 21 MB]' }
+        { label: 'Bestandteile', value: 'Präsentationsplakat (2 Seiten) & 3 Analysekarten' }
       ],
       pdfUrl: 'assets/pdf/Semester-04-Bad-Wimpfen.pdf',
       pdfFileSize: 'PLAKAT BAD WIMPFEN [PDF 21 MB]'
@@ -386,6 +395,15 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   }
+
+  // Event Listener für Lightbox Trigger (z. B. Kreative Arbeiten)
+  document.querySelectorAll('[data-lightbox-trigger]').forEach(card => {
+    card.addEventListener('click', (e) => {
+      e.preventDefault();
+      const src = card.getAttribute('data-lightbox-trigger');
+      if (src) openLightbox(src);
+    });
+  });
 
   // Zoom-Button im Modal
   if (modalZoomBtn) {
