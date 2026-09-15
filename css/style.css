@@ -944,6 +944,9 @@ h1, h2, h3, h4 {
   margin-bottom: 0.75rem;
   padding-bottom: 0.35rem;
   scrollbar-width: thin;
+  min-width: 0;
+  max-width: 100%;
+  width: 100%;
 }
 
 .modal-gallery-nav::-webkit-scrollbar {
@@ -1098,30 +1101,32 @@ h1, h2, h3, h4 {
   padding: 2rem;
   overflow-y: auto;
   display: grid;
-  grid-template-columns: 1fr 340px;
+  grid-template-columns: minmax(0, 1fr) 340px;
   gap: 2.5rem;
+  width: 100%;
 }
 
 .modal-visual-container {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  min-width: 0;
+  width: 100%;
 }
 
 .modal-main-image {
   width: 100%;
-  max-height: 58vh;
+  border: 1px solid var(--border-color);
+  background-color: #F8F9F7;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid var(--border-color);
-  background-color: #F8F9F7;
-  overflow: hidden;
+  padding: 0.5rem;
 }
 
 .modal-main-image svg,
 .modal-main-image img {
-  max-height: 58vh;
+  max-height: 65vh;
   width: auto;
   max-width: 100%;
   object-fit: contain;
@@ -1140,6 +1145,7 @@ h1, h2, h3, h4 {
 .modal-sidebar {
   display: flex;
   flex-direction: column;
+  min-width: 0;
   gap: 2rem;
 }
 
